@@ -12,7 +12,7 @@ RUN set -eux; \
 	useradd \
 		--gid haproxy \
 		--home-dir /var/lib/haproxy \
-		--no-create-home \
+-m \
 		--system \
 		--uid 99 \
 		haproxy
